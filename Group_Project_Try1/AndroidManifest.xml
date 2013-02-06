@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.group_project_try1.ChatActivity"
+            android:label="@string/title_activity_chat"
+            android:parentActivityName="com.example.group_project_try1.Home_Screen_1" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.group_project_try1.Home_Screen_1" />
+        </activity>
     </application>
 
 </manifest>

@@ -20,6 +20,7 @@
         android:layout_alignLeft="@+id/imageButton2"
         android:layout_below="@+id/imageButton2"
         android:layout_marginTop="77dp"
+        android:onClick="chatNow"
         android:src="@drawable/test_button" />
 
     <ImageView
